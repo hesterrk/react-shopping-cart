@@ -2,5 +2,5 @@ import React, { createContext } from 'react';
 
 
 //CREATED our context object
-const ProductContext = createContext();
+export const ProductContext = createContext();
 
