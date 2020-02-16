@@ -28,9 +28,9 @@ function App() {
 	};
 
 	//stretch: removeItem function
-	const removeItem = item => {
+	const removeItem = itemId => {
 
-		const removalList = cart.filter(items => items.id !== item)
+		const removalList = cart.filter(items => items.id !== itemId)
 
 			setCart(removalList);
 	};

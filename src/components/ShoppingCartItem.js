@@ -14,7 +14,7 @@ const Item = props => {
 				<h1>{props.title}</h1>
 				<p>$ {props.price}</p>
 
-				{/* //Stretch: onClick  */}
+				{/* //Stretch: onClick: passing in the id of the item we want to delete  */}
 				<button onClick={() => props.removeItem(props.id)}>Remove from cart</button>
 			</div>
 		</div>
