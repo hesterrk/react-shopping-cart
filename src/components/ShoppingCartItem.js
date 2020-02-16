@@ -15,7 +15,7 @@ const Item = props => {
 				<p>$ {props.price}</p>
 
 				{/* //Stretch: onClick  */}
-				<button onClick={props.removeItem(props.id)}>Remove from cart</button>
+				<button onClick={() => props.removeItem(props.id)}>Remove from cart</button>
 			</div>
 		</div>
 	);

@@ -23,9 +23,11 @@ function App() {
 	};
 
 	//stretch: removeItem function
-	const removeItem = id => {
-		setCart(cart.filter(item => item.id !== id)) 
+	const removeItem = item => {
 
+		const removalList = cart.filter(items => items.id !== item)
+
+			setCart(removalList);
 	};
 
 
